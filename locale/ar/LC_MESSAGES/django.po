@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-06 05:48+0200\n"
+"PO-Revision-Date: 2024-04-03 20:00+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\accounts\models.py:37
+msgid "Student"
+msgstr "طالب"
+
+#: .\accounts\models.py:38
+msgid "Owner"
+msgstr "مالك"
+
+#: .\accounts\models.py:42
+msgid "Male"
+msgstr "ذكر"
+
+#: .\accounts\models.py:43
+msgid "Female"
+msgstr "أنثى"
+
+#: .\accounts\models.py:49
+msgid ""
+"Phone number must be entered in the format: '+201xxxxxxxxx'. Up to 11 digits "
+"allowed."
+msgstr "+يجب إدخال رقم الهاتف بالتنسيق 201012345678."
+
+#: .\accounts\models.py:53
+msgid "National ID must be exactly 14 digits long."
+msgstr "يجب أن يكون الرقم الوطني مكون بالضبط من 14 رقمًا."
+
+#: .\accounts\models.py:60
+msgid "user type"
+msgstr "نوع المستخدم"
+
+#: .\accounts\models.py:67
+msgid "avatar"
+msgstr "الصورة الرمزية"
+
+#: .\accounts\models.py:73
+msgid "phone number"
+msgstr "رقم الهاتف"
+
+#: .\accounts\models.py:77 .\apartments\models.py:12
+msgid "address"
+msgstr "العنوان"
+
+#: .\accounts\models.py:83
+msgid "birth governorate"
+msgstr "محافظة الميلاد"
+
+#: .\accounts\models.py:91
+msgid "national ID"
+msgstr "الرقم الوطني"
+
+#: .\accounts\models.py:96
+msgid "birth date"
+msgstr "تاريخ الميلاد"
+
+#: .\accounts\models.py:103
+msgid "gender"
+msgstr "الجنس"
+
+#: .\accounts\models.py:110
+msgid "is_verified"
+msgstr ""
+
+#: .\accounts\serializers.py:48 .\accounts\serializers.py:126
+msgid "Password fields didn't match."
+msgstr "حقول كلمة المرور لا تتطابق."
+
+#: .\accounts\serializers.py:115
+msgid "User with this email does not exist"
+msgstr "المستخدم بهذا البريد الإلكتروني غير موجود"
+
+#: .\accounts\serializers.py:142
+msgid "Old password is not correct"
+msgstr "كلمة المرور القديمة غير صحيحة"
+
+#: .\accounts\views.py:27
+msgid "Welcome to our django api documentation"
+msgstr ""
+
+#: .\accounts\views.py:72
+msgid "Password has been changed successfully"
+msgstr "تم تغيير كلمة المرور بنجاح"
+
+#: .\accounts\views.py:86
+msgid "User account has been deactivated."
+msgstr ""
+
+#: .\accounts\views.py:110
+#, fuzzy
+#| msgid "Password has been changed successfully"
+msgid "Password reset successfully"
+msgstr "تم تغيير كلمة المرور بنجاح"
+
+#: .\accounts\views.py:112
+msgid "Invalid link or user does not exist"
+msgstr ""
+
+#: .\accounts\views.py:142
+msgid "We have sent you a link to reset your password"
+msgstr ""
+
+#: .\apartments\models.py:10
+msgid "title"
+msgstr "العنوان"
+
+#: .\apartments\models.py:11
+msgid "description"
+msgstr "الوصف"
+
+#: .\apartments\models.py:13
+msgid "price"
+msgstr ""
+
+#: .\apartments\models.py:14
+msgid "rooms"
+msgstr ""
+
+#: .\apartments\models.py:15
+msgid "size"
+msgstr ""
+
+#: .\apartments\models.py:16
+msgid "beds"
+msgstr ""
+
+#: .\apartments\models.py:17
+msgid "bathrooms"
+msgstr ""
+
+#: .\apartments\models.py:18
+msgid "view"
+msgstr ""
+
+#: .\apartments\models.py:19
+msgid "finishing type"
+msgstr ""
+
+#: .\apartments\models.py:20
+#, fuzzy
+#| msgid "phone number"
+msgid "floor number"
+msgstr "رقم الهاتف"
+
+#: .\apartments\models.py:21
+msgid "year of construction"
+msgstr ""
+
+#: .\apartments\models.py:22
+msgid "added date"
+msgstr ""
+
+#: .\apartments\models.py:23
+msgid "updated date"
+msgstr ""
+
+#: .\apartments\models.py:24
+#, fuzzy
+#| msgid "Owner"
+msgid "owner"
+msgstr "مالك"
+
+#~ msgid "No face detected in one or both images."
+#~ msgstr "لم يتم العثور على وجه في إحدى الصور."
+
+#~ msgid "Faces match. Verification successful."
+#~ msgstr "الوجوه متطابقة. نجح التحقق."
+
+#~ msgid "Faces do not match. Verification failed."
+#~ msgstr "الوجوه غير متطابقة. فشل التحقق."
+
+#~ msgid "detail"
+#~ msgstr "تفصيل"
+
+#~ msgid "User verified successfully."
+#~ msgstr "تم التحقق من المستخدم بنجاح."
