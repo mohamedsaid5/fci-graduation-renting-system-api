@@ -16,9 +16,10 @@ A full-stack apartment rental platform built for graduation, featuring a robust 
 ---
 
 ## Demo
-[![Watch the demo](https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/youtube.svg)](https://drive.google.com/file/d/1JAAy1-ocmjRGS3hnjEPkUWG-k7y35-8B/view?usp=sharing)](https://drive.google.com/file/d/1JAAy1-ocmjRGS3hnjEPkUWG-k7y35-8B/view?usp=sharing)
 
-> **Note:** Click the image above to watch the demo video on Google Drive. The video is hosted externally for best viewing and performance.
+[![Watch the demo](https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/youtube.svg)](https://drive.google.com/file/d/1JAAy1-ocmjRGS3hnjEPkUWG-k7y35-8B/view?usp=sharing)
+
+> **Demo:** This is a video demonstration of the mobile app (built with Flutter) interacting with the Django REST API backend. Click the icon above to watch the demo on Google Drive.
 
 ## Documentation
 - **Project Report:** [Renting-System-Document.pdf](./Renting-System-Document.pdf)
