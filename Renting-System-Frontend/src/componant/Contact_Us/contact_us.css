@@ -1,0 +1,101 @@
+.img {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./land_page.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 80vh;
+    width: 100%;
+}
+
+.img .contact_us_layer {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+}
+
+.contact_us_layer .text_Contact_us {
+    font-size: 60px;
+    margin-top: 10%;
+}
+
+.contact_us_form {
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.names, .names_sub {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.25rem; /* Further reduced margin */
+}
+
+.names .l_name, .names_sub .l_name {
+    width: 48%;
+}
+
+.names .l_name input, .names_sub .l_name input, .textarea textarea {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #c9c9c9e0;
+    font-size: 16px;
+}
+
+form .names .l_name label, .names_sub .l_name label, .textarea label {
+    display: block;
+    margin-bottom: 0.25rem; /* Further reduced margin */
+    color: #0A9C48;
+    font-size: 20px;
+    font-weight: bold; /* Make labels bold */
+}
+
+.textarea {
+    
+    margin-bottom: 0.25rem; /* Further reduced margin */
+}
+
+.textarea textarea {
+    height: 250px;
+    /* resize: none; */
+}
+
+.btn_submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.25rem; /* Further reduced margin */
+}
+
+.contact_us_submit {
+    padding: 10px 50px;
+    background-color: #0A9C48;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .contact_us_form {
+        width: 90%;
+    }
+
+    .names, .names_sub {
+        flex-direction: column;
+    }
+
+    .names .l_name, .names_sub .l_name {
+        width: 100%;
+        margin-bottom: 0.5rem; /* Reduced margin */
+    }
+}

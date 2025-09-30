@@ -1,0 +1,265 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.page_up{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    gap: 3%;
+
+}
+.gallary{
+    width: 50%;
+}
+.gallary img{
+    border-radius: 25px;
+}
+.contact_contanier{
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.contact_contanier div{
+    margin: 5% 0px;
+}
+.user p{
+    padding: 15px 60px;
+    font-size: 25px;
+}
+.user p span{
+    padding: 0px 65px;
+}
+.user .first span i{
+    font-size: 40px;
+    margin-left: -30px;
+}
+.user .sec{
+    background-color: #0A9C48;
+    font-size: 25px;
+    color: white;
+    border-radius: 15px;
+}
+.user .thried{
+    background-color: rgba(35, 35, 223, 0.76);
+    font-size: 25px;
+    color: white;
+    border-radius: 15px;
+}
+.user .fourth{
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 25px;
+    color: white;
+    border-radius: 15px;
+}
+
+.page_down{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3% ;
+}
+.page_down .left{
+    width: 100% ;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.page_down_left span{
+    color: #0A9C48;
+    padding-right: 55px;
+    font-size: 25px;
+}
+.page_down .Location span i{
+    color: #0A9C48;
+    padding-right: 20px;
+}
+.tabel h3{
+    color: #0A9C48;
+}
+
+.page_down .left {
+    margin-top: -38%;
+}
+.right{
+    width: 80%;
+    margin: auto;
+}
+.card_1{
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+}
+.card_img .land_img{
+    border-radius: 25px;
+}
+.Apartment{
+    padding-top: 15px;
+}
+.card_img img{
+    width: 80%;
+    margin: auto;
+}
+@media only screen and (max-width: 1030px){
+    .card_contacts_1 {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 700px){
+    .page_up{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .gallary{
+        width: 100%;
+        padding-bottom: 2%;
+    }
+}
+
+
+/* custom style */
+.green {
+    color: #0A9C48;
+}
+
+.card_1 {
+    width: 100%;
+    margin: unset;
+    margin-top: 1rem;
+
+    border: 1px solid gray;
+    border-radius: 26px;
+    max-width: 450px;
+}
+
+.card_1 .card_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: unset;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+}
+
+.card_1_row {
+    display: flex;
+    justify-content: start;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.card_1 .Apartment {
+    margin-bottom: 0;
+    padding-top: unset;
+}
+
+.card_1 h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.card_1 .Apartment_icons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card_1 .Apartment_icons .icon {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 0.9rem;
+}
+
+.card_1 .Apartment_icons .icon i {
+    font-size: inherit;
+}
+
+.card_1 .card_img_contant {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.card_1 .card_contacts {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #cdcdcd;
+    padding: 0.5rem 0;
+}
+
+.card_1 .card_contacts .call {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    border-radius: 10px;
+    border: 1px solid #0A9C48;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.9rem;
+    color: #0A9C48;
+    cursor: pointer;
+}
+
+.card_1 .card_contacts .call i {
+    font-size: inherit;
+}
+
+.card_1 .card_main_content {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.apartment .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 1rem;
+}
+
+.page_down .left {
+    margin-top: 0;
+}
+
+.apartment .page_up {
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+}
+
+.carousel.slide,
+.carousel.slide .carousel-inner,
+.carousel.slide .carousel-item,
+.carousel.slide .carousel-item img,
+.contact_contanier {
+    height: 490px;
+}
+
+.apartment .gallary {
+    width: calc(100% - 516px);
+}
+
+.contact_contanier {
+    border: 1px solid #cdcdcd;
+    width: 450px;
+}
+
+.contact_contanier .contact_contanier_row p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    gap: 0.5rem;
+}
+
+.contact_contanier .contact_contanier_row p span {
+    padding: unset;
+}

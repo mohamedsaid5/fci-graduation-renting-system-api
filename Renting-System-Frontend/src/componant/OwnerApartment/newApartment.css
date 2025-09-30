@@ -1,0 +1,106 @@
+.accountE{
+    margin:0px -80px; 
+}
+.all{
+    display: flex;
+    margin-top:100px
+}
+
+.containerE .p1E{
+    font-family: Inter;
+    font-size: 15.9px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color : #2D383F;
+
+}
+td{
+    font-family: Inter;
+    font-size: 13.7px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    text-align: center;
+}
+
+table{
+    width:200px;
+    background-color: #efefef;
+    border-width:1px;
+    border-color:white 
+}
+.cateE{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #2D383F;
+}
+.delE img{
+    width: 15px;
+    height: 13px;
+    left: 0.02px;
+    gap: 0px;
+    opacity: 0px;
+}
+.delE{
+    border-width:1px;
+    background-color: transparent;
+    margin-left:10px;
+}
+.delE span{
+    color: #0A9C48;
+
+}
+.con1E{
+    display:flex;
+}
+div .sortE{
+    display: inline;
+    margin-left:50px;
+}
+.conE{
+    margin-right:50px ;
+    
+}
+.imageE{
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+.imageE h3{
+    font-family: Inter;
+font-size: 23.8px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: -0.6000000238418579px;
+text-align: left;
+color: #77757A;
+text-align: center;
+
+}
+.imageE p{
+    font-family: Inter;
+font-size: 13.7px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+color: #77757A;
+text-align: center;
+
+}
+
+
+
+.apartmentE{
+    margin:0px auto;
+}
+.row{
+    margin-left:-15px
+}
+
+.combo{
+    margin: 100px;
+}

@@ -1,0 +1,67 @@
+
+
+/* .about_us_img{
+    background-image: url('./land_page.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative;
+    width: 100%;
+    height: 80vh;
+
+} */
+.about_us_layer_text{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+
+
+
+.about_us_layer .para_land_page{
+    padding: 50px 0px;
+}
+.about_us_Containt_upper .upper ,.about_us_Containt_upper .lower,.about_us_Containt_lower ,.about_us_Containt_upper h3{
+    padding: 10px 125px;
+    font-size: 22px;
+}
+.about_us_Containt_upper h3 ,.about_us_Containt_lower h3{
+    color:#0A9C48;
+    font-size: 40px;
+
+}
+
+
+
+
+.about_us_Containt_upper   {
+    padding: 100px 0px;
+
+}
+.about_us_Containt_lower   {
+    padding-bottom: 100px;
+
+}
+
+.text_about{
+    font-size: 65px;
+    letter-spacing: 10px;
+
+
+}
+
+.about_us_img {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.5)), url('./land_page.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+

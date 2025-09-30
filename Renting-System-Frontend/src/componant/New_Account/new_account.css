@@ -1,0 +1,100 @@
+.Sing_In{
+    width: 100%;
+
+}
+.small_container {
+    width: 70%;
+    margin: auto;
+}
+.header h2{
+    text-align: center;
+    font-size: 38px;
+    padding: 30px 0px;
+}
+.header_link{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header_link a{
+    font-size: 22px;
+    color: black;
+
+}
+.header_link a:hover{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.form form{
+    width: 45%;
+    margin: auto;
+    
+}
+.form form input{
+    width: 100%;
+    background-color: #B3B3B3;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.form form label{
+    font-size: 18px;
+    font-weight: 450;
+}
+form div{
+    padding: 20px 0px;
+}
+.sign_in_btn{
+    width: 100%;
+    display: flex;
+}
+.sing_btn{
+    padding: 10px 60px;
+    margin: auto;
+    outline: none;
+    border: none;
+    background-color: #0A9C48;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+form .paragraphs p{
+    text-align: left;
+    font-size: 16px;
+    color: rgb(249, 19, 19);
+    line-height: 14px;
+}
+.footer h4{
+    text-align: center;
+}
+
+.connection .up{
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-top: 10px;
+}
+.up p{
+    padding: 13px 0 0 0;
+    font-size: 18px;
+}
+.up p span{
+    padding: 10px 40px;
+}
+.radio_buttons {
+    display: flex;
+}
+
+@media only screen and (max-width: 700px) {
+ .form form ,.connection .up{
+    width: 100%;
+ }
+}

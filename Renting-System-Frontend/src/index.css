@@ -1,0 +1,173 @@
+.avatar-icon {
+    width: 46px;
+    height: 46px;
+}
+
+.curved-add-apartment,
+.avatar-icon {
+    position: relative;
+}
+
+.avatar-icon img,
+.curved-add-apartment img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.curved-add-apartment {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.curved-add-apartment img {
+    border-radius: 10px;
+}
+
+.avatar-icon img {
+    border-radius: 50%;
+}
+
+.avatar-icon.x64 {
+    width: 64px;
+    height: 64px;
+}
+
+.avatar-icon .avatar-x,
+.curved-add-apartment .curved-add-apartment-x {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.curved-add-apartment .curved-add-apartment-x {
+    border-radius: 10px;
+}
+
+.curved-add-apartment:hover .curved-add-apartment-x.h,
+.curved-add-apartment .curved-add-apartment-x.x {
+    display: flex;
+}
+
+.avatar-icon:hover .avatar-x {
+    display: flex;
+}
+
+.show-apartment-page .apartment-main-photo {
+    /* height: 510px; */
+    width: 100%;
+    border-radius: 8px;
+}
+
+.show-apartment-page .apartment-right-photos {
+    /* height: 510px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.show-apartment-page .apartment-photos-card {
+    height: 100%;
+    width: 100% !important;
+}
+
+.show-apartment-page .apartment-photos-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.custom-col {
+    width: calc(100% - 290px) !important;
+    flex: 1 !important;
+    max-width: unset !important;
+}
+
+.related-box {
+    max-width: 275px;
+}
+
+.home_layer .search {
+    position: relative;
+}
+
+.home_layer .search a,
+.home_layer .search-result p {
+    color: #fff;
+    text-decoration: unset;
+}
+
+.home_layer .search-result {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 1rem 0.4rem;
+    height: fit-content;
+
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+}
+
+.search-result-row {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.search-result-row .search-result-row-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+}
+
+.search-result-row .search-result-row-photo {
+    width: 120px;
+    min-width: 120px;
+    /* height: 120px; */
+}
+
+.search-result-row .search-result-row-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cust_nav_link {
+    margin: 0 0.2rem;
+}
+
+.cust-loader {
+    width: var(--w, 100%);
+    height: var(--h, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fbfbfb;
+}
+
+.cust-loader.dots {
+    background: transparent;
+}
+
+.card-full {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+}

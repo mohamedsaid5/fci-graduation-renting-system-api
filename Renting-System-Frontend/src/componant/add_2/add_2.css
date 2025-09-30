@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.add_2{
+    width: 100%;
+}
+.add_header{
+    background-image: url('./card_img.jpg');
+    background-size: cover; 
+    background-position: bottom; 
+    height: 80vh;
+    width: 100%;
+    margin: 1% 0;
+}
+.read_term{
+    background-color: rgba(0, 0, 0, 0.348);
+    margin-bottom: 3%;
+    padding: 0 10px;
+}
+.read_term p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    padding: 10px 0px;
+    color: red;
+    text-align: left;
+}
+.add_2 .title h3{
+    padding: 30px 15px;
+}
+.add_2 .file{
+    width: 100%;
+}
+.file form .photo {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 4px dashed gray;
+}
+.file form{
+    width: 100%;
+}
+form .photo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo input[type="file"]{
+    display: none;
+}
+form .photo label{
+    background-color: #0A9C48;
+    padding: 10px;
+    color: white;
+    padding-right: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+form .photo label span i{
+    text-align: center;
+    font-size: 20px;
+    padding: 0 15px;
+    color: black;
+    
+}
+.upload h3{
+    padding: 35px 0px;
+    margin-left: -10%;
+    text-transform: uppercase;
+}
+ form .next_btn{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ form .next_btn button{
+    background-color: #0A9C48;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 65px;
+    font-size: 20px;
+    margin: 2% auto ;
+    border-radius: 15px;
+ }
+
+
