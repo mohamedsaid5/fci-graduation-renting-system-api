@@ -16,7 +16,7 @@ A full-stack apartment rental platform built for graduation, featuring a robust 
 ---
 
 ## Demo
-[![Watch the demo](https://img.youtube.com/vi/1JAAy1-ocmjRGS3hnjEPkUWG-k7y35-8B/0.jpg)](https://drive.google.com/file/d/1JAAy1-ocmjRGS3hnjEPkUWG-k7y35-8B/view?usp=sharing)
+[![Watch the demo](https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/youtube.svg)](https://drive.google.com/file/d/1JAAy1-ocmjRGS3hnjEPkUWG-k7y35-8B/view?usp=sharing)](https://drive.google.com/file/d/1JAAy1-ocmjRGS3hnjEPkUWG-k7y35-8B/view?usp=sharing)
 
 > **Note:** Click the image above to watch the demo video on Google Drive. The video is hosted externally for best viewing and performance.
 
