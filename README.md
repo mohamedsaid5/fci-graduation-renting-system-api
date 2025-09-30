@@ -16,12 +16,12 @@ A full-stack apartment rental platform built for graduation, featuring a robust 
 ---
 
 ## Demo
-- **Mobile App Demo:**
-  - [Download/View mobile-app-demo.mp4](./mobile-app-demo.mp4)
-  - (If the file is too large for GitHub preview, you can download it to view.)
+[![Watch the demo](https://img.youtube.com/vi/1JAAy1-ocmjRGS3hnjEPkUWG-k7y35-8B/0.jpg)](https://drive.google.com/file/d/1JAAy1-ocmjRGS3hnjEPkUWG-k7y35-8B/view?usp=sharing)
+
+> **Note:** Click the image above to watch the demo video on Google Drive. The video is hosted externally for best viewing and performance.
 
 ## Documentation
-- **Project Report:** [Renting system document.pdf](./Renting%20system%20document.pdf)
+- **Project Report:** [Renting-System-Document.pdf](./Renting-System-Document.pdf)
 - **Presentation Slides:** [Renting System_presentation.pptx](./Renting%20System_presentation.pptx)
 
 ## API Documentation
