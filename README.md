@@ -22,7 +22,7 @@ A full-stack apartment rental platform built for graduation, featuring a robust 
 
 ## Documentation
 - **Project Report:** [Renting-System-Document.pdf](./Renting-System-Document.pdf)
-- **Presentation Slides:** [Renting System_presentation.pptx](./Renting%20System_presentation.pptx)
+- **Presentation Slides:** [Renting-System-presentation.pptx](./Renting-System-presentation.pptx)
 
 ## API Documentation
 - **OpenAPI/Swagger:** [http://localhost:8000/api/docs/swagger/](http://localhost:8000/api/docs/swagger/)
