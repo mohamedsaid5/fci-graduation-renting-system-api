@@ -11,7 +11,7 @@ A full-stack apartment rental platform built for graduation, featuring a robust 
 
 **Author:** [Mohamed Said](https://github.com/mohamedsaid5/)
 
-**Project Repository:** [Graduation-Project---Renting-System-API](https://github.com/mohamedsaid5/Graduation-Project---Renting-System-API)
+**Project Repository:** [fci-graduation-renting-system-api](https://github.com/mohamedsaid5/fci-graduation-renting-system-api)
 
 ---
 
@@ -122,8 +122,8 @@ See [API Documentation](#api-documentation) for full details and try out endpoin
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/mohamedsaid5/Graduation-Project---Renting-System-API.git
-   cd Graduation-Project---Renting-System-API
+   git clone https://github.com/mohamedsaid5/fci-graduation-renting-system-api.git
+   cd fci-graduation-renting-system-api
    ```
 2. **Create and activate a virtual environment (recommended):**
    ```bash
@@ -163,15 +163,3 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 ---
 
 For more projects, visit my [GitHub profile](https://github.com/mohamedsaid5/).
-
----
-
-## Repository Naming
-If you want to rename your GitHub repository, choose a clear and descriptive name, such as `renting-system`, `apartment-rental-platform`, or `fci-graduation-renting-system`. To rename:
-1. Go to your repository on GitHub.
-2. Click on "Settings".
-3. Under "Repository name", enter the new name and save.
-4. Update any remote URLs in your local git config if needed:
-   ```bash
-   git remote set-url origin https://github.com/yourusername/new-repo-name.git
-   ```

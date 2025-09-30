@@ -1,6 +1,15 @@
 # Renting System Frontend
 
-This is the React frontend for the Renting System project.
+This is the React frontend for the Renting System project, part of a full-stack graduation platform for apartment rentals. It provides a modern, responsive user interface for browsing, searching, and managing apartments, as well as user authentication and profile management.
+
+## Features
+- User registration and login
+- Browse, search, and filter apartments
+- View apartment details and photos
+- Save favorite apartments
+- User profile management
+- Responsive design for desktop and mobile
+- Integration with Django REST API backend
 
 ## Getting Started
 
@@ -32,11 +41,13 @@ yarn build
 ```
 
 ## Project Structure
-- `src/` — Main source code
-- `public/` — Static files
+- `src/` — Main source code (components, pages, assets, context, etc.)
+- `public/` — Static files (index.html, icons, etc.)
 
-## API
-The frontend communicates with the Django backend API. Make sure the backend is running and update API URLs in the code if needed.
+## API Integration
+- The frontend communicates with the Django backend API (see main project README for endpoints).
+- Update API URLs in the code if your backend is running on a different host/port.
+- Requires the backend to be running for full functionality.
 
 ## License
 See the main project [LICENSE](../LICENSE).
